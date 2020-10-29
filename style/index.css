@@ -1,1 +1,211 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    max-width:100%;
+   /* border:1px solid grey; */
+}
+  
+/*General Styles!*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:2rem;
+    font-family: 'Roboto Mono', monospace;
+    line-height:1.5;
+}
+
+section{
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
+}
+
+/*style for page start*/
+  h1 {
+    margin-left: 2%;
+    font-size:10rem ;
+    color: orange;
+    font-family: 'Vampiro One', cursive;
+  }
+  h2 {
+      font-size: 6rem;
+      font-weight: bold;
+      
+  }
+  header{
+    
+      background-color: darkgreen;
+  }
+  h3 {
+      font-size: 5rem;
+      color:orange;
+  }
+  nav {
+      display: flex;
+      padding:2%;
+      width: 100%;
+      
+     
+  }
+
+  nav a{
+    padding: .5%;
+    font-size: 2rem;
+    border: 1px solid black;
+    text-decoration: none;
+    color: orange;
+    font-family: 'Trispace', sans-serif;
+    
+    
+  }
+   .home {
+      background-color: black;
+      color:white;
+  }
+  
+  .top-section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color:tan;
+      
+  }
+  .top-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+  }
+   .top-image img{
+       width: 70%;
+       display: flex;
+       align-items: center;
+       border-radius: 15px;
+   }
+  .left-side {
+      width: 60%;
+  }
+
+  .right-side{
+      width: 40%;
+      font-family: 'Trispace', sans-serif; ;
+      margin: 0 2%;
+      
+  }
+  .right-side p {
+      font-size: 3rem;
+       
+  }
+  
+  .bottom-section{
+      background-color: tan;
+  }
+  .bottom-section img{
+      height: 40vh;
+      width: 12%;
+      border-radius: 15px;
+  }
+  
+  .imagerow1 {
+      display: flex;
+      justify-content: space-evenly;
+
+  }
+
+  .imagerow2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ducks{
+      padding:2%;
+      display: flex;
+      justify-content: space-around;
+      font-size: 3rem;
+      color: forestgreen;
+      font-family: 'Syne Tactile', cursive;
+  }
+  footer{
+      background-color: darkgreen;
+  }
+  .contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Trispace', sans-serif;
+  }
+   button {
+    background-color: orange;
+    border: none;
+    color: forestgreen;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+      
+  } 
+
+  .social {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Trispace', sans-serif;
+      
+  }
+  .social a{
+      padding: 1%;
+      border-radius: 15px;
+      border: orange;
+     
+  }
+
+  s
