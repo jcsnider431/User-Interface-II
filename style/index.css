@@ -208,4 +208,6 @@ section{
      
   }
 
-  s
+.social a, img{
+    height: 10rem;
+}
