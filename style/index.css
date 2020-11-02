@@ -16,7 +16,8 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    /* border: 1px solid red; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -146,9 +147,27 @@ section{
   }
   
   .bottom-section{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
       background-color: tan;
   }
-  .bottom-section img{
+  .gallery {
+      width: 100%;
+      margin:;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  .gallery div{
+      width: 17%;
+      margin: 3%;
+  }
+  .gallery div, img{
+      border-radius: 15px;
+  }
+
+  /* .bottom-section img{
       height: 40vh;
       width: 12%;
       border-radius: 15px;
@@ -171,8 +190,8 @@ section{
       justify-content: space-around;
       font-size: 3rem;
       color: forestgreen;
-      font-family: 'Syne Tactile', cursive;
-  }
+      font-family: 'Syne Tactile', cursive; */
+  /* } */
   footer{
       background-color: darkgreen;
   }
@@ -295,36 +314,23 @@ section{
       }
       
       .bottom-section{
-          background-color: tan;
-          display:flex;
-          flex-wrap: wrap;
-          justify-content:space-between ;
-          width:
-          
-      }
-      .bottom-section img{
-          height: 40vh;
-          width: 45%;
-          margin: 1%;
-          border-radius: 15px;
-          
-      }
-      
-      .imagerow1 {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
-    
-      }
-    
-      .imagerow2 {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        background-color: tan;
+    }
+    .gallery {
+        width: 100%;
+        margin:;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-      }
-     
+    }
+    .gallery div{
+        width: 30%;
+        margin: 3%;
+    }
+    
       
       footer{
           background-color: darkgreen;
@@ -451,37 +457,23 @@ section{
       }
       
       .bottom-section{
-          background-color: tan;
-          display:flex;
-          flex-wrap: wrap;
-          justify-content:space-between ;
-          width:
-          
-      }
-      .bottom-section img{
-          height: 30vh;
-          width: 45%;
-          margin: 1%;
-          border-radius: 15px;
-          
-      }
-      
-      .imagerow1 {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
-    
-      }
-    
-      .imagerow2 {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        background-color: tan;
+    }
+    .gallery {
+        width: 100%;
+        margin:;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-      }
-     
-      
+    }
+    .gallery div{
+        width: 30%;
+        margin: 3%;
+    }
+    
       footer{
           background-color: darkgreen;
       }
