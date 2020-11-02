@@ -47,7 +47,7 @@ table {
 *{
     box-sizing:border-box;
     max-width:100%;
-   /* border:1px solid grey; */
+    border:1px solid grey; 
 }
   
 /*General Styles!*/
@@ -62,7 +62,7 @@ body{
 
 section{
     padding:4% 0;
-    width:90%;
+    width:100%;
     margin:0 auto;
 }
 
@@ -115,6 +115,7 @@ section{
       align-items: center;
       background-color:tan;
       
+      
   }
   .top-image {
       display: flex;
@@ -151,6 +152,7 @@ section{
       height: 40vh;
       width: 12%;
       border-radius: 15px;
+      margin-bottom: 5%;
   }
   
   .imagerow1 {
@@ -215,4 +217,315 @@ section{
 
 .mediaimg {
     height: 10rem;
+}
+@media(max-width: 800px){
+    h1 {
+        font-size:7rem;
+        text-align: center;
+        
+        }
+      h2 {
+          font-size: 4rem;
+          font-weight: bold;
+          
+      }
+      header{
+        
+          background-color: darkgreen;
+      }
+      h3 {
+          font-size: 3rem;
+          color:orange;
+      }
+      nav {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        
+        }
+    
+      nav a{
+        padding: ;
+        font-size: 1.75rem;
+        border: 1px solid black;
+        text-decoration: none;
+        color: orange;
+        font-family: 'Trispace', sans-serif;
+        
+        
+      }
+       .home {
+          background-color: black;
+          color:white;
+      }
+      
+      .top-section {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          background-color:tan;
+          
+      }
+      .top-image {
+         width: 100%;
+          
+          
+      }
+       .top-image img{
+           width: 100%;
+           height: 50vh;
+           border-radius: 15px;
+       }
+      .left-side {
+          width: 100%;
+      }
+    
+      .right-side{
+          width: 100%;
+          font-size: 1rem;
+          text-align: center;
+          font-family: 'Trispace', sans-serif; ;
+          margin: 0 2%;
+          
+      }
+      .right-side p {
+          font-size: rem;
+           
+      }
+      
+      .bottom-section{
+          background-color: tan;
+          display:flex;
+          flex-wrap: wrap;
+          justify-content:space-between ;
+          width:
+          
+      }
+      .bottom-section img{
+          height: 40vh;
+          width: 45%;
+          margin: 1%;
+          border-radius: 15px;
+          
+      }
+      
+      .imagerow1 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+    
+      }
+    
+      .imagerow2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+     
+      
+      footer{
+          background-color: darkgreen;
+      }
+      .contact {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Trispace', sans-serif;
+      }
+       button {
+        background-color: orange;
+        border: none;
+        color: forestgreen;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 15px;
+        
+          
+      } 
+      button a{
+          text-decoration: none;
+          color: forestgreen;
+      }
+    
+      .social {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          font-family: 'Trispace', sans-serif;
+          
+      }
+      .social a{
+          padding: 1%;
+          border-radius: 15px;
+          border: orange;
+         
+      }
+    
+    .mediaimg {
+        height: 5rem;
+
+
+}/*closing media*/
+
+@media(max-width: 500px){
+    h1 {
+        font-size:3rem;
+        text-align: center;
+        
+        }
+      h2 {
+          font-size: 2rem;
+          font-weight: bold;
+          
+      }
+      header{
+        
+          background-color: darkgreen;
+      }
+      h3 {
+          font-size: 2rem;
+          color:orange;
+      }
+      nav {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        
+        }
+    
+      nav a{
+        padding: ;
+        font-size: 1.75rem;
+        border: none;
+        text-decoration: none;
+        color: orange;
+        font-family: 'Trispace', sans-serif;
+        
+        
+      }
+       .home {
+          background-color: black;
+          color:white;
+      }
+      
+      .top-section {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          background-color:tan;
+          
+      }
+      .top-image {
+         width: 100%;
+          
+          
+      }
+       .top-image img{
+           width: 100%;
+           height: 30vh;
+           border-radius: 15px;
+       }
+      .left-side {
+          width: 100%;
+      }
+    
+      .right-side{
+          width: 100%;
+          font-size: 1rem;
+          text-align: center;
+          font-family: 'Trispace', sans-serif; ;
+          margin: 0 2%;
+          
+      }
+      .right-side p {
+          font-size: 1.5rem;
+           
+      }
+      
+      .bottom-section{
+          background-color: tan;
+          display:flex;
+          flex-wrap: wrap;
+          justify-content:space-between ;
+          width:
+          
+      }
+      .bottom-section img{
+          height: 30vh;
+          width: 45%;
+          margin: 1%;
+          border-radius: 15px;
+          
+      }
+      
+      .imagerow1 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+    
+      }
+    
+      .imagerow2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+     
+      
+      footer{
+          background-color: darkgreen;
+      }
+      .contact {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Trispace', sans-serif;
+      }
+       button {
+        background-color: orange;
+        border: none;
+        color: forestgreen;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 15px;
+        
+          
+      } 
+      button a{
+          text-decoration: none;
+          color: forestgreen;
+      }
+    
+      .social {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          font-family: 'Trispace', sans-serif;
+          
+      }
+      .social a{
+          padding: 1%;
+          border-radius: 15px;
+          border: orange;
+         
+      }
+    
+    .mediaimg {
+        height: 3rem;
+
+
 }
